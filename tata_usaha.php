@@ -15,20 +15,17 @@
     </div>
     <ul class="menu">
       <li><a href="index.php"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
-      <li><a href="personal.php"><i class="fas fa-users"></i> Personal</a></li>
-      <li><a href="komunikasi.php"><i class="fas fa-briefcase"></i> Komunikasi</a></li>
-      <li><a href="tata_usaha.php"><i class="fas fa-star"></i> Tata Usaha</a></li>
-      <li><a href="sistem.php"><i class="fas fa-clock"></i> Sistem</a></li>
-      <li><a href="lain_lain.php"><i class="fas fa-money-bill"></i> Lain-Lain</a></li>
-      <li><a href="aset.php"><i class="fas fa-money-bill"></i> Manajemen Aset</a></li>
-      <li><a href="kuesioner.php"><i class="fas fa-money-bill"></i> Kuesioner</a></li>
+      <li><a href="personal.php"><i class="fas fa-user"></i> Personal</a></li>
+      <li><a href="komunikasi.php"><i class="fas fa-comments"></i> Komunikasi</a></li>
+      <li><a href="tata_usaha.php"><i class="fas fa-building"></i> Tata Usaha</a></li>
+      <li><a href="sistem.php"><i class="fas fa-cogs"></i> Sistem</a></li>
+      <li><a href="lain_lain.php"><i class="fas fa-ellipsis-h"></i> Lain-Lain</a></li>
+      <li><a href="aset.php"><i class="fas fa-boxes"></i> Manajemen Aset</a></li>
+      <li><a href="kuesioner.php"><i class="fas fa-question-circle"></i> Kuesioner</a></li>
     </ul>
   </div>
 
-<div class="content">
-    <h1>Dashboard</h1>
-    <p>Selamat datang di Sistem Manajemen.</p>
-</div>
+
 
 </body>
 </html>

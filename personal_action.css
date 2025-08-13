@@ -1,0 +1,122 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* FORM */
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-save {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-cancel {
+  background-color: #6c757d;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* DETAIL CARD */
+.detail-card {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.detail-header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(120deg, #4e73df, #1cc88a);
+  color: white;
+}
+.profile-icon {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+.detail-body {
+  padding: 20px;
+}
+.detail-body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.detail-body th {
+  text-align: left;
+  padding: 10px;
+  background: #f8f9fc;
+  width: 30%;
+}
+.detail-body td {
+  padding: 10px;
+  background: #ffffff;
+}
+.detail-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #f8f9fc;
+}
+.detail-footer a {
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+}
+.btn-edit {
+  background: #ffc107;
+  color: black;
+}
+.btn-hapus {
+  background: #e74c3c;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+.btn-hapus:hover {
+  opacity: 0.85;
+}
+
+.btn-back {
+  background: #6c757d;
+}
+.detail-footer a:hover {
+  opacity: 0.85;
+}

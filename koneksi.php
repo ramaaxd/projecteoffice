@@ -1,12 +1,12 @@
 <?php
-$host = "localhost";
-$user = "root"; 
-$pass = "";     
-$db   = "manajemen_sistem"; 
+$host = "localhost"; // host database
+$user = "root";      // username database
+$pass = "";          // password database
+$db   = "manajemen_sistem"; // ganti sesuai nama database
 
-$conn = mysqli_connect($host, $user, $pass, $db);
+$koneksi = mysqli_connect($host, $user, $pass, $db);
 
-if (!$conn) {
-    die("Koneksi gagal: " . mysqli_connect_error());
+if (!$koneksi) {
+    die("Koneksi database gagal: " . mysqli_connect_error());
 }
 ?>
