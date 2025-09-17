@@ -1,0 +1,166 @@
+.main-content {
+  margin-left: 240px; /* menyesuaikan dengan sidebar */
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.main-content h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tab {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #e9ecef;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab:hover {
+  background: #d6d8db;
+}
+
+.tab.active {
+  background: #007bff;
+  color: #fff;
+}
+
+.content {
+  display: none;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.content.active {
+  display: block;
+}
+
+/* Chat */
+.chat-box {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  max-height: 250px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-message {
+  margin-bottom: 8px;
+}
+
+.chat-message.user {
+  text-align: right;
+  color: #007bff;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Forum */
+.forum-thread {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.forum-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.forum-form button {
+  padding: 8px 16px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Pengumuman */
+.announcement {
+  list-style: none;
+  padding: 0;
+}
+
+.announcement li {
+  margin: 8px 0;
+}
+
+/* Pesan */
+.pesan-list {
+  margin-bottom: 15px;
+}
+
+.pesan-item {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.pesan-form input,
+.pesan-form textarea,
+.sms-form input,
+.sms-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.pesan-form button,
+.sms-form button,
+.file-form button {
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* File */
+.file-list p {
+  margin: 5px 0;
+}

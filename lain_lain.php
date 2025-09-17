@@ -1,14 +1,16 @@
 <?php include 'koneksi.php'; ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Sistem Manajemen</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Sistem Manajemen</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
 
-<div class="sidebar">
+  <div class="sidebar">
     <div class="logo">
       <img src="image/th.jpg" alt="Logo" class="logo-img">
       <h2>Sistem Manajemen</h2>
@@ -25,10 +27,11 @@
     </ul>
   </div>
 
-<div class="content">
+  <div class="content">
     <h1>Dashboard</h1>
     <p>Selamat datang di Sistem Manajemen.</p>
-</div>
+  </div>
 
 </body>
+
 </html>
